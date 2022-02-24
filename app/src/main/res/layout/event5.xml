@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAE8C7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAE8C7"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Beginning Of Modern Humans - 200,000 to 300,000 years ago (“First Humans: Homo Sapiens and Early Human Migration (Article)”) \n "
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="365dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_page5"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fig 5. Human Evolution
+(Dunn)
+" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='The modern human species, also known as homo sapiens, evolved from their early hominid predecessors between 200,000 and 300,000 years ago in Africa (\"First Humans: Homo Sapiens and Early Human Migration (Article)\").'
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

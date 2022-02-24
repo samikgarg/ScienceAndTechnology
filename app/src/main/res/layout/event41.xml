@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAE8C7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAE8C7"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='First Flying Car Test Flight - 2021 \n '
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="365dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_page41"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fig 41. Flying Car Test Flight (Kleinman) \n
+                Video: https://youtu.be/a2tDOYkFCYo \n
+
+Official Video of the First Flying Car Test Flight (KleinVision)
+" />
+
+            
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='The first ever test flight of a prototype flying was completed on June 28 2021 in a flight between airports in Slovakia, as the car took to the skies and landed 35 minutes later. This car is called the AirCar and is described as a "dual-mode car-aircraft vehicle". This means that the aircraft can turn into a sports car at the click of a button in under three minutes. This vehicle is equipped with a 160 horsepower BMW engine with a fixed propeller and a ballistic parachute. According to Klein Vision, the company that created the first prototype of the flying car, "AirCar is no longer just a proof of concept; flying at 8,200ft at a speed of 100 kt (115 miles per hour), it has turned science fiction into a reality" (Brito).'
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

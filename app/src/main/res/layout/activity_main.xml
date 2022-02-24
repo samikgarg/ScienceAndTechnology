@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="openBib"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/road1"
+                    android:layout_width="7700dp"
+                    android:layout_height="7700dp"
+                    android:background="#FFFFFF"
+                    android:rotation="90"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/curvyroad" />
+
+                <ImageView
+                    android:id="@+id/flag1"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+
+                    android:layout_marginStart="124dp"
+                    android:layout_marginTop="116dp"
+                    android:layout_marginEnd="37dp"
+                    android:layout_marginBottom="7386dp"
+                    android:onClick="open1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag2"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+
+
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="296dp"
+                    android:layout_marginEnd="129dp"
+                    android:layout_marginBottom="7206dp"
+                    android:onClick="open2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag3"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="117dp"
+                    android:layout_marginTop="463dp"
+                    android:layout_marginEnd="44dp"
+                    android:layout_marginBottom="7037dp"
+                    android:onClick="open3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag4"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="641dp"
+                    android:layout_marginEnd="110dp"
+                    android:layout_marginBottom="6861dp"
+                    android:onClick="open4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag5"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="116dp"
+                    android:layout_marginTop="814dp"
+                    android:layout_marginEnd="45dp"
+                    android:layout_marginBottom="6686dp"
+                    android:onClick="open5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag6"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="46dp"
+                    android:layout_marginTop="987dp"
+                    android:layout_marginEnd="115dp"
+                    android:layout_marginBottom="6515dp"
+                    android:onClick="open6"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag7"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="1170dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_marginBottom="6330dp"
+                    android:onClick="open7"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+
+                <ImageView
+                    android:id="@+id/flag8"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="1338dp"
+                    android:layout_marginEnd="113dp"
+                    android:layout_marginBottom="6164dp"
+                    android:onClick="open8"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag9"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="1519dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="5981dp"
+                    android:onClick="open9"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag10"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginTop="1684dp"
+                    android:layout_marginEnd="109dp"
+                    android:layout_marginBottom="5818dp"
+                    android:onClick="open10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag11"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="1861dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="5639dp"
+                    android:onClick="open11"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag12"
+                    android:layout_width="250dp"
+                    android:layout_height="198dp"
+                    android:layout_marginStart="43dp"
+                    android:layout_marginTop="2038dp"
+                    android:layout_marginEnd="118dp"
+                    android:layout_marginBottom="5464dp"
+                    android:onClick="open12"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag13"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="124dp"
+                    android:layout_marginTop="2220dp"
+                    android:layout_marginEnd="37dp"
+                    android:layout_marginBottom="5280dp"
+                    android:onClick="open13"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag14"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="2392dp"
+                    android:layout_marginEnd="117dp"
+                    android:layout_marginBottom="5110dp"
+                    android:onClick="open14"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag15"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="128dp"
+                    android:layout_marginTop="2564dp"
+                    android:layout_marginEnd="33dp"
+                    android:layout_marginBottom="4936dp"
+                    android:onClick="open15"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag16"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="2742dp"
+                    android:layout_marginEnd="121dp"
+                    android:layout_marginBottom="4760dp"
+                    android:onClick="open16"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag17"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="128dp"
+                    android:layout_marginTop="2916dp"
+                    android:layout_marginEnd="33dp"
+                    android:layout_marginBottom="4584dp"
+                    android:onClick="open17"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag18"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="3094dp"
+                    android:layout_marginEnd="117dp"
+                    android:layout_marginBottom="4408dp"
+                    android:onClick="open18"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag19"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="117dp"
+                    android:layout_marginTop="3271dp"
+                    android:layout_marginEnd="44dp"
+                    android:layout_marginBottom="4229dp"
+                    android:onClick="open19"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag20"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="3438dp"
+                    android:layout_marginEnd="121dp"
+                    android:layout_marginBottom="4064dp"
+                    android:onClick="open20"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag21"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="3617dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="3883dp"
+                    android:onClick="open21"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag22"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="3786dp"
+                    android:layout_marginEnd="113dp"
+                    android:layout_marginBottom="3716dp"
+                    android:onClick="open22"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag23"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="117dp"
+                    android:layout_marginTop="3963dp"
+                    android:layout_marginEnd="44dp"
+                    android:layout_marginBottom="3537dp"
+                    android:onClick="open23"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag24"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="4146dp"
+                    android:layout_marginEnd="125dp"
+                    android:layout_marginBottom="3356dp"
+                    android:onClick="open24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag25"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="4317dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="3183dp"
+                    android:onClick="open25"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag26"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="4486dp"
+                    android:layout_marginEnd="113dp"
+                    android:layout_marginBottom="3016dp"
+                    android:onClick="open26"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag27"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="4670dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="2830dp"
+                    android:onClick="open27"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag28"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="4842dp"
+                    android:layout_marginEnd="121dp"
+                    android:layout_marginBottom="2660dp"
+                    android:onClick="open28"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag29"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="5015dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="2485dp"
+                    android:onClick="open29"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag30"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginTop="5182dp"
+                    android:layout_marginEnd="109dp"
+                    android:layout_marginBottom="2320dp"
+                    android:onClick="open30"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag31"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="5372dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="2128dp"
+                    android:onClick="open31"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag32"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="5546dp"
+                    android:layout_marginEnd="117dp"
+                    android:layout_marginBottom="1956dp"
+                    android:onClick="open32"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag33"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="5714dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="1786dp"
+                    android:onClick="open33"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag34"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginTop="5886dp"
+                    android:layout_marginEnd="105dp"
+                    android:layout_marginBottom="1616dp"
+                    android:onClick="open34"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag35"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="6067dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="1433dp"
+                    android:onClick="open35"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag36"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="6246dp"
+                    android:layout_marginEnd="125dp"
+                    android:layout_marginBottom="1256dp"
+                    android:onClick="open36"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag37"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="117dp"
+                    android:layout_marginTop="6414dp"
+                    android:layout_marginEnd="44dp"
+                    android:layout_marginBottom="1086dp"
+                    android:onClick="open37"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag38"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="6590dp"
+                    android:layout_marginEnd="121dp"
+                    android:layout_marginBottom="912dp"
+                    android:onClick="open38"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag39"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="121dp"
+                    android:layout_marginTop="6761dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="739dp"
+                    android:onClick="open39"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag40"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="6942dp"
+                    android:layout_marginEnd="125dp"
+                    android:layout_marginBottom="560dp"
+                    android:onClick="open40"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <ImageView
+                    android:id="@+id/flag41"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="7119dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginBottom="381dp"
+                    android:onClick="open41"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag" />
+
+                <ImageView
+                    android:id="@+id/flag42"
+                    android:layout_width="250dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="7286dp"
+                    android:layout_marginEnd="113dp"
+                    android:layout_marginBottom="216dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/flag_flipped" />
+
+                <TextView
+                    android:id="@+id/textView1_1"
+                    android:layout_width="88dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="85dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Formation Of The Universe"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintEnd_toEndOf="@+id/flag1"
+                    app:layout_constraintTop_toTopOf="@+id/flag1" />
+
+                <TextView
+                    android:id="@+id/textView1_2"
+                    android:layout_width="108dp"
+                    android:layout_height="21dp"
+                    android:layout_marginTop="61dp"
+                    android:layout_marginEnd="72dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="13.8 Billion Years Ago"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintEnd_toEndOf="@+id/flag1"
+                    app:layout_constraintTop_toTopOf="@+id/flag1" />
+
+                <TextView
+                    android:id="@+id/textView2_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="4.5 Billion years ago"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag2"
+                    app:layout_constraintTop_toTopOf="@+id/flag2" />
+
+                <TextView
+                    android:id="@+id/textView2_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="76dp"
+                    android:layout_marginTop="29dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Formation Of The Solar System And Earth"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag2"
+                    app:layout_constraintTop_toTopOf="@+id/flag2" />
+
+                <TextView
+                    android:id="@+id/textView3_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="43dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="The First Tools"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag3"
+                    app:layout_constraintTop_toTopOf="@+id/flag3" />
+
+                <TextView
+                    android:id="@+id/textView3_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="62dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="3.3 Million years ago"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag3"
+                    app:layout_constraintTop_toTopOf="@+id/flag3" />
+
+                <TextView
+                    android:id="@+id/textView4_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="38dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Discovery Of Fire"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag4"
+                    app:layout_constraintTop_toTopOf="@+id/flag4" />
+
+                <TextView
+                    android:id="@+id/textView4_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="57dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1 Million Years ago"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag4"
+                    app:layout_constraintTop_toTopOf="@+id/flag4" />
+
+                <TextView
+                    android:id="@+id/textView5_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="27dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Beginning Of Modern Humans"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag5"
+                    app:layout_constraintTop_toTopOf="@+id/flag5" />
+
+                <TextView
+                    android:id="@+id/textView5_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="76dp"
+                    android:layout_marginTop="58dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="200,000 to 300,000 years ago"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag5"
+                    app:layout_constraintTop_toTopOf="@+id/flag5" />
+
+                <TextView
+                    android:id="@+id/textView6_1"
+                    android:layout_width="101dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Neolithic Revolution"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag6"
+                    app:layout_constraintTop_toTopOf="@+id/flag6" />
+
+                <TextView
+                    android:id="@+id/textView6_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="110,000 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag6"
+                    app:layout_constraintTop_toTopOf="@+id/flag6" />
+
+                <TextView
+                    android:id="@+id/textView7_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Use Of The First Bricks"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag7"
+                    app:layout_constraintTop_toTopOf="@+id/flag7" />
+
+                <TextView
+                    android:id="@+id/textView7_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="65dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="7,000 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag7"
+                    app:layout_constraintTop_toTopOf="@+id/flag7" />
+
+                <TextView
+                    android:id="@+id/textView8_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="The First Irrigation Systems"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag8"
+                    app:layout_constraintTop_toTopOf="@+id/flag8" />
+
+                <TextView
+                    android:id="@+id/textView8_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="69dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="6,000 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag8"
+                    app:layout_constraintTop_toTopOf="@+id/flag8" />
+
+                <TextView
+                    android:id="@+id/textView9_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Wheel"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag9"
+                    app:layout_constraintTop_toTopOf="@+id/flag9" />
+
+                <TextView
+                    android:id="@+id/textView9_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="3,500 BCE "
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag9"
+                    app:layout_constraintTop_toTopOf="@+id/flag9" />
+
+
+                <TextView
+                    android:id="@+id/textView10_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="43dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Bronze Age"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag10"
+                    app:layout_constraintTop_toTopOf="@+id/flag10" />
+
+                <TextView
+                    android:id="@+id/textView10_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginTop="63dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="3,300 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag10"
+                    app:layout_constraintTop_toTopOf="@+id/flag10" />
+
+                <TextView
+                    android:id="@+id/textView11_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="37dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="The First Written Language"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag11"
+                    app:layout_constraintTop_toTopOf="@+id/flag11" />
+
+                <TextView
+                    android:id="@+id/textView11_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="3,100 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag11"
+                    app:layout_constraintTop_toTopOf="@+id/flag11" />
+
+                <TextView
+                    android:id="@+id/textView12_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of Early Paper"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag12"
+                    app:layout_constraintTop_toTopOf="@+id/flag12" />
+
+                <TextView
+                    android:id="@+id/textView12_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="64dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="2,900 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag12"
+                    app:layout_constraintTop_toTopOf="@+id/flag12" />
+
+                <TextView
+                    android:id="@+id/textView13_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Iron Age"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag13"
+                    app:layout_constraintTop_toTopOf="@+id/flag13" />
+
+                <TextView
+                    android:id="@+id/textView13_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="73dp"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1,200 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag13"
+                    app:layout_constraintTop_toTopOf="@+id/flag13" />
+
+                <TextView
+                    android:id="@+id/textView14_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="73dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Water Wheel"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag14"
+                    app:layout_constraintTop_toTopOf="@+id/flag14" />
+
+                <TextView
+                    android:id="@+id/textView14_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="50 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag14"
+                    app:layout_constraintTop_toTopOf="@+id/flag14" />
+
+                <TextView
+                    android:id="@+id/textView15_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of The First Concrete"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag15"
+                    app:layout_constraintTop_toTopOf="@+id/flag15" />
+
+                <TextView
+                    android:id="@+id/textView15_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="65dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="27 BCE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag15"
+                    app:layout_constraintTop_toTopOf="@+id/flag15" />
+
+                <TextView
+                    android:id="@+id/textView16_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of Modern Paper"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag16"
+                    app:layout_constraintTop_toTopOf="@+id/flag16" />
+
+                <TextView
+                    android:id="@+id/textView16_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="105 CE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag16"
+                    app:layout_constraintTop_toTopOf="@+id/flag16" />
+
+                <TextView
+                    android:id="@+id/textView17_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of Gunpowder"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag17"
+                    app:layout_constraintTop_toTopOf="@+id/flag17" />
+
+                <TextView
+                    android:id="@+id/textView17_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="67dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="850 CE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag17"
+                    app:layout_constraintTop_toTopOf="@+id/flag17" />
+
+                <TextView
+                    android:id="@+id/textView18_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of Windmills"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag18"
+                    app:layout_constraintTop_toTopOf="@+id/flag18" />
+
+
+                <TextView
+                    android:id="@+id/textView18_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="950 CE"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag18"
+                    app:layout_constraintTop_toTopOf="@+id/flag18" />
+
+                <TextView
+                    android:id="@+id/textView19_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="73dp"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of Compass"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag19"
+                    app:layout_constraintTop_toTopOf="@+id/flag19" />
+
+                <TextView
+                    android:id="@+id/textView19_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="63dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1044"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag19"
+                    app:layout_constraintTop_toTopOf="@+id/flag19" />
+
+                <TextView
+                    android:id="@+id/textView20_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of The Mechanical Clock"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag20"
+                    app:layout_constraintTop_toTopOf="@+id/flag20" />
+
+                <TextView
+                    android:id="@+id/textView20_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1270-1300"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag20"
+                    app:layout_constraintTop_toTopOf="@+id/flag20" />
+
+                <TextView
+                    android:id="@+id/textView21_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of Printing"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag21"
+                    app:layout_constraintTop_toTopOf="@+id/flag21" />
+
+                <TextView
+                    android:id="@+id/textView21_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="64dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1455"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag21"
+                    app:layout_constraintTop_toTopOf="@+id/flag21" />
+
+                <TextView
+                    android:id="@+id/textView22_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="First Use Of A Steam Operated Machine"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag22"
+                    app:layout_constraintTop_toTopOf="@+id/flag22" />
+
+                <TextView
+                    android:id="@+id/textView22_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="69dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1606"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag22"
+                    app:layout_constraintTop_toTopOf="@+id/flag22" />
+
+                <TextView
+                    android:id="@+id/textView23_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Steam Engine"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag23"
+                    app:layout_constraintTop_toTopOf="@+id/flag23" />
+
+                <TextView
+                    android:id="@+id/textView23_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="64dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1698"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag23"
+                    app:layout_constraintTop_toTopOf="@+id/flag23" />
+
+                <TextView
+                    android:id="@+id/textView24_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="73dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Improvement Of The Steam Engine"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag24"
+                    app:layout_constraintTop_toTopOf="@+id/flag24" />
+
+                <TextView
+                    android:id="@+id/textView24_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1711"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag24"
+                    app:layout_constraintTop_toTopOf="@+id/flag24" />
+
+                <TextView
+                    android:id="@+id/textView25_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Further Improvement Of The Steam Engine"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag25"
+                    app:layout_constraintTop_toTopOf="@+id/flag25" />
+
+                <TextView
+                    android:id="@+id/textView25_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="71dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1765"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag25"
+                    app:layout_constraintTop_toTopOf="@+id/flag25" />
+
+                <TextView
+                    android:id="@+id/textView26_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="4522dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Creation Of The Clermont"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag26"
+                    app:layout_constraintTop_toTopOf="@+id/road1" />
+
+                <TextView
+                    android:id="@+id/textView26_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="69dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1807"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag26"
+                    app:layout_constraintTop_toTopOf="@+id/flag26" />
+
+                <TextView
+                    android:id="@+id/textView27_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="73dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="The First Modern Photograph"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag27"
+                    app:layout_constraintTop_toTopOf="@+id/flag27" />
+
+                <TextView
+                    android:id="@+id/textView27_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="71dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1827"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag27"
+                    app:layout_constraintTop_toTopOf="@+id/flag27" />
+
+                <TextView
+                    android:id="@+id/textView28_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Mechanical Reaper"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag28"
+                    app:layout_constraintTop_toTopOf="@+id/flag28" />
+
+                <TextView
+                    android:id="@+id/textView28_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="69dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1831"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag28"
+                    app:layout_constraintTop_toTopOf="@+id/flag28" />
+
+                <TextView
+                    android:id="@+id/textView29_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Telegraph"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag29"
+                    app:layout_constraintTop_toTopOf="@+id/flag29" />
+
+                <TextView
+                    android:id="@+id/textView29_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1844"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag29"
+                    app:layout_constraintTop_toTopOf="@+id/flag29" />
+
+                <TextView
+                    android:id="@+id/textView30_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="33dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Telephone"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag30"
+                    app:layout_constraintTop_toTopOf="@+id/flag30" />
+
+                <TextView
+                    android:id="@+id/textView30_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1876"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag30"
+                    app:layout_constraintTop_toTopOf="@+id/flag30" />
+
+                <TextView
+                    android:id="@+id/textView31_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Light Bulb"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag31"
+                    app:layout_constraintTop_toTopOf="@+id/flag31" />
+
+                <TextView
+                    android:id="@+id/textView31_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="37dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1879"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag31"
+                    app:layout_constraintTop_toTopOf="@+id/textView31_1" />
+
+                <TextView
+                    android:id="@+id/textView32_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of the Automobile"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag32"
+                    app:layout_constraintTop_toTopOf="@+id/flag32" />
+
+                <TextView
+                    android:id="@+id/textView32_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1886"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag32"
+                    app:layout_constraintTop_toTopOf="@+id/flag32" />
+
+                <TextView
+                    android:id="@+id/textView33_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of the Airplane"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag33"
+                    app:layout_constraintTop_toTopOf="@+id/flag33" />
+
+                <TextView
+                    android:id="@+id/textView33_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1903"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag33"
+                    app:layout_constraintTop_toTopOf="@+id/flag33" />
+
+                <TextView
+                    android:id="@+id/textView34_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="34dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Television"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag34"
+                    app:layout_constraintTop_toTopOf="@+id/flag34" />
+
+                <TextView
+                    android:id="@+id/textView34_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="67dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1927"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag34"
+                    app:layout_constraintTop_toTopOf="@+id/flag34" />
+
+
+                <TextView
+                    android:id="@+id/textView35_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention Of The Digital Computer"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag35"
+                    app:layout_constraintTop_toTopOf="@+id/flag35" />
+
+                <TextView
+                    android:id="@+id/textView35_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="67dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1937"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag35"
+                    app:layout_constraintTop_toTopOf="@+id/flag35" />
+
+                <TextView
+                    android:id="@+id/textView36_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="45dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="First Spaceflight"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag36"
+                    app:layout_constraintTop_toTopOf="@+id/flag36" />
+
+                <TextView
+                    android:id="@+id/textView36_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1957"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag36"
+                    app:layout_constraintTop_toTopOf="@+id/flag36" />
+
+                <TextView
+                    android:id="@+id/textView37_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Apollo 11 Moon Landing"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag37"
+                    app:layout_constraintTop_toTopOf="@+id/flag37" />
+
+                <TextView
+                    android:id="@+id/textView37_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="69dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1969"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag37"
+                    app:layout_constraintTop_toTopOf="@+id/flag37" />
+
+                <TextView
+                    android:id="@+id/textView38_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="39dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="The First Personal Computer"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag38"
+                    app:layout_constraintTop_toTopOf="@+id/flag38" />
+
+                <TextView
+                    android:id="@+id/textView38_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="67dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1975"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag38"
+                    app:layout_constraintTop_toTopOf="@+id/flag38" />
+
+                <TextView
+                    android:id="@+id/textView39_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Invention of the World Wide Web"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag39"
+                    app:layout_constraintTop_toTopOf="@+id/flag39" />
+
+                <TextView
+                    android:id="@+id/textView39_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="69dp"
+                    android:layout_marginTop="68dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="1989"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag39"
+                    app:layout_constraintTop_toTopOf="@+id/flag39" />
+
+                <TextView
+                    android:id="@+id/textView40_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="6980dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Creation Of The Original iPhone"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag40"
+                    app:layout_constraintTop_toTopOf="@+id/road1" />
+
+                <TextView
+                    android:id="@+id/textView40_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="67dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="2007"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag40"
+                    app:layout_constraintTop_toTopOf="@+id/flag40" />
+
+                <TextView
+                    android:id="@+id/textView41_1"
+                    android:layout_width="100dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="37dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="First Flying Car Test Flight"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag41"
+                    app:layout_constraintTop_toTopOf="@+id/flag41" />
+
+                <TextView
+                    android:id="@+id/textView41_2"
+                    android:layout_width="109dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="63dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="2021"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/flag41"
+                    app:layout_constraintTop_toTopOf="@+id/flag41" />
+
+                <TextView
+                    android:id="@+id/textView42_1"
+                    android:layout_width="108dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="71dp"
+                    android:layout_marginTop="44dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="AND THE JOURNEY CONTINUES!"
+                    android:textColor="#000000"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/flag42"
+                    app:layout_constraintTop_toTopOf="@+id/flag42" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="openBib"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bibliography_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAE8C7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAE8C7"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='The First Modern Photograph - 1827  \n '
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="365dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_page27"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fig 27. The First Photograph (Habert)" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='Nicéphore Niépce, who was an amateur scientist, inventor and artist,
+(Harding) took the first modern photograph with the help of a camera obscura. A camera obscura was made up of a small dark room with a single small hole through which light could pass through. As a result, an inverted image of the outside scenery was created on the wall on the opposite side in the dark room.
+(“Camera Obscura”)Niépce took the first photograph using a technique called “Heliography”, which means “drawing with the sun”. This process involved creating a solution that became hard and insoluble upon exposure to light from a camera obscura. This was done by dissolving bitumen of Judea, which is a sort of Asphalt, in lavender oil. A polished pewter plate was coated with a thin coating of this solution.
+(Harding) He then positioned a camera obscura near a window in this workroom and inserted the plate inside it, allowing it to be exposed to sunlight for several days. (“The Niépce Heliograph”) After taking the plate out, the soft and unexposed bitumen was washed off using lavender oil and turpentine, (Harding) leaving a representation of the scenery outside Niépce’s window (“The Niépce Heliograph”).
+'
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

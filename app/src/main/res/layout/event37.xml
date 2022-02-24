@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAE8C7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAE8C7"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='Apollo 11 Moon Landing - 1969  \n '
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="365dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_page37"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fig 37. Apollo 11 Moon Landing (“Apollo 11 (AS-506)”)(“Apollo 11 (AS-506)”)" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='Apollo 11 was the first manned mission to the moon and involved Neil Armstrong, Buzz Aldrin, and Michael Collins. The Apollo 11 spacecraft was launched from Cape Kennedy at 13:32:00 UT on July 16, 1969. The S-IVB engine was reignited to accelerate the spacecraft to the velocity required for Earth gravity escape after 2 hr and 33 min in Earth orbit. (“Apollo 11 (AS-506)”). Three days later, the crew was in lunar orbit and a day after that, Armstrong and Aldrin climbed into the lunar module Eagle and began the descent, while Collins orbited in the command module Columbia. Only 30 seconds of fuel remained when the lunar module landed at 4:17 p.m EDT, when. Armstrong radioed "Houston, Tranquility Base here. The Eagle has landed."  The tension broke and mission control celebrated as a controller told the crew and a controller tells the crew "You got a bunch of guys about to turn blue, we are breathing again." At 10:56 p.m. EDT Armstrong is ready to plant the first human foot on another world, being the moon. He climbs down the ladder with more than half a billion people watching on television, and proclaims: "That is one small step for a man, one giant leap for mankind." (“July 20, 1969: One Giant Leap for Mankind”).'
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

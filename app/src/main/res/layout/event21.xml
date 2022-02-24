@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAE8C7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAE8C7"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='Invention of Printing - 1455  \n '
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="365dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_page21"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fig 21. The First Printing Press (How It Works Team)" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text='Before the invention of the printing press, all writing and drawing had to be done manually, which was tedious and inefficient. In the 1300s and 1400s, a very basic form of printing was invented, where letters and images cut onto wooden bocks would be dipped in ink and then stamped on paper. A German man named Johann Gutenberg wished to find a way to earn money in the late 1430s. To do this, he looked towards this form of printing and realised that the process could be sped up if the wooden blocks were used to create a machine. Gutenberg decided to use metal blocks rather than wooden ones and created a machine where the blocks could be moved around to create any word. Thus, this became known as a “movable type machine”. It worked by using a frame to set a group of type blocks. These blocks were laid on paper after being inked to form the print. to ensure that the ink is transferred to the paper, All of this passes through a roller. The paper is then lifted to allow the user to see the printed text.  (“The Invention and History of the Printing Press”) Gutenberg printed a copy of the bible using this machine and completed the printing in 1455 (Gregersen).'
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
