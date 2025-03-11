@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="banner.png" alt="GitHub Banner" width="100%" />
-</p>
+<a href="https://www.stemquestdiscovery.com/">
+  <p align="center">
+    <img src="banner.png" alt="GitHub Banner" width="100%" />
+  </p>
+</a>
 
 # 🔬 Science and Technology: The Beginning...
 
