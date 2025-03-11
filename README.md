@@ -6,8 +6,6 @@
 
 # 🔬 Science and Technology: The Beginning...
 
-🔗 **Download on Google Play:** [ShapeX Calculator](https://play.google.com/store/apps/details?id=your.app.package.name)  
-
 ## 📌 Description
 **Science and Technology: The Beginning...** is an Android application designed to educate users about the **evolution of science and technology** through **detailed insights into 40+ major scientific and technological inventions and discoveries**. The app presents information in both **text and images**, allowing users to explore the profound impact of these advancements on the modern world.
 
